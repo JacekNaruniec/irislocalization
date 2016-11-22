@@ -42,12 +42,12 @@
     <OutDir>$(SolutionDir)lib\</OutDir>
     <TargetExt>.lib</TargetExt>
     <TargetName>$(ProjectName)D</TargetName>
-    <IntDir>d:\temp\$(ProjectName)\$(Configuration)\iris_localizator\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Configuration)\iris_localizator\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)lib\</OutDir>
     <TargetExt>.lib</TargetExt>
-    <IntDir>d:\temp\$(ProjectName)\$(Configuration)\iris_localizator\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Configuration)\iris_localizator\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

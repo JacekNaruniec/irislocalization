@@ -42,11 +42,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>d:\temp\$(ProjectName)\$(Configuration)\iris_localizator\</IntDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Configuration)\iris_localizator\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>d:\temp\$(ProjectName)\$(Configuration)\iris_localizator\</IntDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Configuration)\iris_localizator\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
