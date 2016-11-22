@@ -15,6 +15,9 @@ https://www.bioid.com/About/BioID-Face-Database
 
 After downloading the database, copy all the files from the BioID_annotations folder to the BioID pgm files folder. Then just compile the application, and run it with the database directory as an argument.
 
+## Environment ##
+The project was created using Visual Studio 2013 in Windows, it's the easiest way to compile and run the application. 
+
 ## Where to get help ##
 If you have any issues with the source code, please write me an e-mail describing your problem in details. 
 
