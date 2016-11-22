@@ -60,7 +60,7 @@ vector<Mat<float>> loadAllFacialFeaturesCoordinates(string databaseDirectory, ve
 		actualFileCoordinates.readFromFile((databaseDirectory+filename).c_str());
 
 		if (actualFileCoordinates.height == 1)
-			printf("Error when reading file: %s\n", filename.c_str());
+			printf("Error when reading file: %s\n", (databaseDirectory + filename).c_str());
 
 		coordinates.push_back(actualFileCoordinates);
 	}

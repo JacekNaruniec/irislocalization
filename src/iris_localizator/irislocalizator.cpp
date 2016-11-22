@@ -58,6 +58,7 @@ void IrisLocalizator::createCirclesPoints()
 vector<IrisParameters> IrisLocalizator::localizePupilPositions(SimpleImage image, vector<Mat<float>> eyesPoints)
 {
 	vector<IrisParameters> retParameters(2);
+	image.convertToGrayscale();
 
 	for (int eyeIndex = 0; eyeIndex < 2; eyeIndex++)
 	{
