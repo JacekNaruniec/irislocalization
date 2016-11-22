@@ -4,7 +4,8 @@ This application contains implamantation of the iris localization algorithm desc
 "Webcam based system for video occulography", to be published in IET Computer Vision, 2016
 
 Watch the demonstration video:
-https://youtu.be/K7CWzaBWRTw
+[![Demonstration](http://img.youtube.com/vi/K7CWzaBWRTw/0.jpg)](https://youtu.be/K7CWzaBWRTw)
+
 
 ## How to use it ##
 To perform the tests you will need BioID database, that can be downloaded from:
