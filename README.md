@@ -3,12 +3,14 @@
 This application contains implamantation of the iris localization algorithm described in:
 "Webcam based system for video occulography", to be published in IET Computer Vision, 2016
 
-Watch the demonstration video:
+Watch the demonstration video (click will redirect you to YouTube):
+
 [![Demonstration](http://img.youtube.com/vi/K7CWzaBWRTw/0.jpg)](https://youtu.be/K7CWzaBWRTw)
 
 
 ## How to use it ##
 To perform the tests you will need BioID database, that can be downloaded from:
+
 https://www.bioid.com/About/BioID-Face-Database
 
 After downloading the database, copy all the files from the BioID_annotations folder to the BioID pgm files folder. Then just compile the application, and run it with the database directory as an argument.
