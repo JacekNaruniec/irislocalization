@@ -5,7 +5,7 @@ This application contains implamantation of the iris localization algorithm desc
 
 Watch the demonstration video (click will redirect you to YouTube):
 
-[![Demonstration](http://img.youtube.com/vi/K7CWzaBWRTw/0.jpg)](https://youtu.be/K7CWzaBWRTw)
+[![Demonstration](http://img.youtube.com/vi/jlN_sVuK9WY/0.jpg)](https://youtu.be/jlN_sVuK9WY)
 
 
 ## How to use it ##
